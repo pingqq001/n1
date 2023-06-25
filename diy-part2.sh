@@ -12,8 +12,8 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
-#rm -rf  feeds/luci/themes/luci-theme-argon   # 删除自带argon
+rm -rf  feeds/luci/themes/luci-theme-argon   # 删除自带argon
 
 
-#git clone  https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon   # 替换新版argon
+git clone  https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon   # 替换新版argon
 #git clone  https://github.com/r1172464137/luci-theme-edge.git package/luci-theme-edge   # 替换新版edge
